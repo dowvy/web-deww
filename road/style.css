@@ -1,0 +1,108 @@
+
+  body {
+    font-family: "Oxygen", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 940px;
+    margin: auto;
+  }
+
+  .font-lora {
+    font-family: "Lora", serif;
+  }
+  
+  .logo {
+    font-size: 26px;
+    line-height: 26px;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px;
+  }
+
+  .link {
+    text-transform: uppercase;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+  }
+
+  .picture {
+    margin-top: 36px;
+  }
+
+  .heading {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  .subheading {
+    color: #2E2E2EA1;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .image-container {
+    position: relative;
+    min-height: 534px;
+  }
+
+  .image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .text-container {
+    background-color: #F7F7F7;
+    padding: 140px;
+  }
+
+  .paragraph {
+    font-size: 24px;
+    line-height: 35px;
+    margin-bottom: 50px;
+  }
+
+  .footer-container {
+    position: absolute;
+    width: 100%;
+    background-image: url("img/house\ in\ mount.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .footer {
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo-footer {
+    color: white;
+  }
+
+  .link-footer {
+    font-size: 11px;
+    line-height: 26px;
+    color: #FFFFFF99;
+  }
